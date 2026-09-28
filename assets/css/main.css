@@ -190,8 +190,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   cursor: pointer;
   position: fixed;
@@ -199,6 +199,7 @@ h6 {
   right: 15px;
   z-index: 9999;
   transition: background-color 0.3s;
+  padding: 0;
 }
 
 .header .header-toggle:hover {
@@ -392,6 +393,7 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+  padding: 0;
 }
 
 .scroll-top i {
@@ -1555,6 +1557,7 @@ section,
 @media (max-width: 1199px) {
   .header .header-toggle {
     top: 60px;
+    right: 15px;
   }
 }
 
